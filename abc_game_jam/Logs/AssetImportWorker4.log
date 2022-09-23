@@ -15,7 +15,7 @@ D:/Aplicaciones/GitHub/ABC_BCP_GAME_JAM/abc_game_jam
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-50169
+53443
 Successfully changed project path to: D:/Aplicaciones/GitHub/ABC_BCP_GAME_JAM/abc_game_jam
 D:/Aplicaciones/GitHub/ABC_BCP_GAME_JAM/abc_game_jam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Aplicaciones/GitHub/ABC_BCP_GAME_JAM/abc_game_jam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 79.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path D:/Aplicaciones/Unity/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -63,41 +63,41 @@ Initialize mono
 Mono path[0] = 'D:/Aplicaciones/Unity/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Aplicaciones/Unity/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Aplicaciones/Unity/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Aplicaciones/Unity/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Aplicaciones/Unity/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Aplicaciones/Unity/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002343 seconds.
+Registered in 0.001832 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 69.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.481 seconds
+- Completed reload, in  0.468 seconds
 Domain Reload Profiling:
-	ReloadAssembly (481ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (469ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (354ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (352ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (75ms)
+			SetupTypeCache (70ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (224ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (225ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (42ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (74ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadAttributes (73ms)
 				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -105,39 +105,39 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003250 seconds.
+Registered in 0.002736 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Aplicaciones\GitHub\ABC_BCP_GAME_JAM\abc_game_jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Aplicaciones\GitHub\ABC_BCP_GAME_JAM\abc_game_jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.830 seconds
+- Completed reload, in  0.820 seconds
 Domain Reload Profiling:
-	ReloadAssembly (830ms)
-		BeginReloadAssembly (180ms)
+	ReloadAssembly (821ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (572ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (551ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (268ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (264ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -145,13 +145,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (114.1 KB). Loaded Objects now: 3862.
-Memory consumption went from 131.1 MB to 131.0 MB.
-Total: 3.419000 ms (FindLiveObjects: 0.280500 ms CreateObjectMapping: 0.236700 ms MarkObjects: 2.787300 ms  DeleteObjects: 0.113400 ms)
+Memory consumption went from 131.2 MB to 131.1 MB.
+Total: 2.875600 ms (FindLiveObjects: 0.273900 ms CreateObjectMapping: 0.243700 ms MarkObjects: 2.250000 ms  DeleteObjects: 0.107000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,43 +166,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 70668.322360 seconds.
-  path: Assets/Game_Assets/Prefabs/pista_recta.prefab
-  artifactKey: Guid(1b627bfa7c406254e8f2296d8ed88ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game_Assets/Prefabs/pista_recta.prefab using Guid(1b627bfa7c406254e8f2296d8ed88ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf00a7b119eddb9490277e88b532c5d') in 0.155141 seconds 
+  Time since last request: 76372.183289 seconds.
+  path: Assets/PolygonCity/Models/SM_Env_Road_Crossing_01.fbx
+  artifactKey: Guid(9dc48fcca887642458c8c753be8c035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/SM_Env_Road_Crossing_01.fbx using Guid(9dc48fcca887642458c8c753be8c035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef8ef756b9ce074ed370b79ecd073c3') in 0.174144 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 256.843920 seconds.
-  path: Assets/New Terrain 2.asset
-  artifactKey: Guid(41f8555314c30e64cb567cb00b882097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 2.asset using Guid(41f8555314c30e64cb567cb00b882097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fdcf069650d4750d007df6bdcd8216') in 0.018487 seconds 
+  Time since last request: 6.195281 seconds.
+  path: Assets/PolygonCity/Models/SM_Env_Grass_01.fbx
+  artifactKey: Guid(24e62eff11865724fbbab3ac5fffb303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/SM_Env_Grass_01.fbx using Guid(24e62eff11865724fbbab3ac5fffb303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983946f66eee87b3c88684292cbc41fb') in 0.030627 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 723.660486 seconds.
-  path: Assets/Game_Assets/Prefabs/pista_larga.prefab
-  artifactKey: Guid(00be69ce658ce754c8c3ffe1fcf2f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game_Assets/Prefabs/pista_larga.prefab using Guid(00be69ce658ce754c8c3ffe1fcf2f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7043229793de885422db17be9dadcd54') in 0.020531 seconds 
+  Time since last request: 3.000024 seconds.
+  path: Assets/PolygonCity/Models/SM_Env_Bridge_Pillar_01.fbx
+  artifactKey: Guid(c192f5bb29ae7ce4f881593bb1968c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/SM_Env_Bridge_Pillar_01.fbx using Guid(c192f5bb29ae7ce4f881593bb1968c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02eca9e6caf732445ac1b06195219de') in 0.030773 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 179.433602 seconds.
-  path: Assets/Game_Assets/Prefabs/pista_larga.prefab
-  artifactKey: Guid(00be69ce658ce754c8c3ffe1fcf2f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game_Assets/Prefabs/pista_larga.prefab using Guid(00be69ce658ce754c8c3ffe1fcf2f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65caf3fa88aae21f97fb72c468200aef') in 0.040948 seconds 
+  Time since last request: 2.840214 seconds.
+  path: Assets/PolygonCity/Models/SM_Env_Tree_01.fbx
+  artifactKey: Guid(7099dfc2c2c03224387983f7ba0a1ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/SM_Env_Tree_01.fbx using Guid(7099dfc2c2c03224387983f7ba0a1ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf8ed5f35d54a0cccf01ecd1feae6f6') in 0.042444 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 915.907087 seconds.
-  path: Assets/PolygonCity/Prefabs/Buildings/Custom
-  artifactKey: Guid(d789ca295cb4a814290fc1c4b7f3f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Buildings/Custom using Guid(d789ca295cb4a814290fc1c4b7f3f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a02969d8ee95bd362777222fad4471') in 0.005191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 490.410273 seconds.
-  path: Assets/Game_Assets/Prefabs/edificio_pequeno.prefab
-  artifactKey: Guid(439039b6b8a18cb4790640e2e9ad3758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game_Assets/Prefabs/edificio_pequeno.prefab using Guid(439039b6b8a18cb4790640e2e9ad3758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4788be9cb849dca98492fc6f7799e9') in 0.018213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.947770 seconds.
-  path: Assets/Game_Assets/Prefabs/edificio_grande.prefab
-  artifactKey: Guid(265086dae0ccbca43b602838424de807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game_Assets/Prefabs/edificio_grande.prefab using Guid(265086dae0ccbca43b602838424de807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6241c710d0e46f4fa3b641bd872f42') in 0.047754 seconds 
+  Time since last request: 11.440848 seconds.
+  path: Assets/PolygonCity/Models/SM_Env_Street_Divider_01.fbx
+  artifactKey: Guid(f42eb9c026244e94693943290a18ae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/SM_Env_Street_Divider_01.fbx using Guid(f42eb9c026244e94693943290a18ae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cc9f37f809634cbdd5ce6c4ea325b2') in 0.026158 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
