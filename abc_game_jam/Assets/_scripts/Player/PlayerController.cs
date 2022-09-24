@@ -26,7 +26,6 @@ public class PlayerController : MonoBehaviour
             if(Physics.Raycast(ray,out hit))
             {
                 agent.SetDestination(hit.point);
-                
             }
         }
         if(agent.remainingDistance > 0.1f)
