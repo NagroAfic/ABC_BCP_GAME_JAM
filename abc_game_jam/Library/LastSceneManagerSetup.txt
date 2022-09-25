@@ -2,6 +2,7 @@ sceneSetups:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/SplashScreen.unity
 =======
 - path: Assets/Scenes/SampleScene.unity
@@ -12,6 +13,9 @@ sceneSetups:
 =======
 - path: Assets/Scenes/mini_playguitar.unity
 >>>>>>> parent of e1ef9d3a (Merge pull request #5 from NagroAfic/c2_jsaldana)
+=======
+- path: Assets/Scenes/SampleScene.unity
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
   isLoaded: 1
   isActive: 1
   isSubScene: 0

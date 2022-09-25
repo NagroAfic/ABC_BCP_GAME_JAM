@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1664117934487982, "dur":578, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664117934488567, "dur":313, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1664117934488914, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -1318,6 +1319,8 @@
 =======
 =======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 ,{ "pid":12345, "tid":0, "ts":1664115776537577, "dur":55168, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664115776592765, "dur":1494, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1664115776594363, "dur":77, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -2443,6 +2446,7 @@
 ,{ "pid":12345, "tid":8, "ts":1664115779358949, "dur":42759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664115779432551, "dur":7902, "ph":"X", "name": "ProfilerWriteOutput" }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
@@ -2525,4 +2529,6 @@
 ,{ "pid":12345, "tid":16, "ts":1664043562714407, "dur":750, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664043562716675, "dur":217, "ph":"X", "name": "ProfilerWriteOutput" }
 >>>>>>> parent of e1ef9d3a (Merge pull request #5 from NagroAfic/c2_jsaldana)
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 ,

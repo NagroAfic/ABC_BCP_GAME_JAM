@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 35942, "tid": 1, "ts": 1664112247153856, "dur": 298115, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1664112247154638, "dur": 105076, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1664112247414105, "dur": 2284, "ph": "X", "name": "OutputData.Write", "args": {} },
@@ -14,6 +15,8 @@
 =======
 =======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 { "pid": 35942, "tid": 1, "ts": 1664005134803155, "dur": 1580399, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1664005134805471, "dur": 661653, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1664005136217658, "dur": 26553, "ph": "X", "name": "OutputData.Write", "args": {} },
@@ -21,6 +24,7 @@
 { "pid": 35942, "tid": 1, "ts": 1664005136245654, "dur": 109603, "ph": "X", "name": "JsonToString", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1664005136394147, "dur": 2519, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1664005136391822, "dur": 4931, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
@@ -34,3 +38,5 @@
 { "pid": 35942, "tid": 1, "ts": 1664043563014516, "dur": 862, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1664043563013913, "dur": 1485, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 >>>>>>> parent of e1ef9d3a (Merge pull request #5 from NagroAfic/c2_jsaldana)
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)

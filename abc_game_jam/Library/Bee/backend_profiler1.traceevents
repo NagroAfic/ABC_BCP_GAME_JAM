@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1664112247583727, "dur":521, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664112247584253, "dur":123, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1664112247584407, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -1311,6 +1312,8 @@
 ,{ "pid":12345, "tid":16, "ts":1664112247594809, "dur":114495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664112247711433, "dur":2478, "ph":"X", "name": "ProfilerWriteOutput" }
 =======
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 ,{ "pid":12345, "tid":0, "ts":1664005136723625, "dur":4105, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
@@ -2893,6 +2896,7 @@
 ,{ "pid":12345, "tid":8, "ts":1664005197803115, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ScriptAssemblies" }}
 ,{ "pid":12345, "tid":8, "ts":1664005197803117, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664005197818995, "dur":8294, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
@@ -4481,4 +4485,6 @@
 ,{ "pid":12345, "tid":16, "ts":1664043569788574, "dur":107487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664043569898363, "dur":2848, "ph":"X", "name": "ProfilerWriteOutput" }
 >>>>>>> parent of e1ef9d3a (Merge pull request #5 from NagroAfic/c2_jsaldana)
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 ,

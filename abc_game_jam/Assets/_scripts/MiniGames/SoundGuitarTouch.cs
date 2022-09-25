@@ -6,6 +6,7 @@ public class SoundGuitarTouch : MonoBehaviour
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public float amount = 10f;
     public float restamount = 5f;
     [SerializeField] private MiniGuitarPlayController controller;
@@ -34,6 +35,13 @@ public class SoundGuitarTouch : MonoBehaviour
 =======
         
 >>>>>>> parent of e1ef9d3a (Merge pull request #5 from NagroAfic/c2_jsaldana)
+=======
+    
+
+    // Start is called before the first frame update
+    void Start()
+    {
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
         StartCoroutine(WaitDestroy());
     }
 

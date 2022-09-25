@@ -11,8 +11,11 @@ public class MiniGuitarPlayController : MonoBehaviour
     public float timer = 60f;
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 
 
@@ -29,6 +32,9 @@ public class MiniGuitarPlayController : MonoBehaviour
         {
             timer -= Time.deltaTime;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
         }
 <<<<<<< HEAD
         else
@@ -80,6 +86,7 @@ public class MiniGuitarPlayController : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void LlenarText(string d, int m, int s,int c)
     {
         descripcion.text=d;
@@ -96,6 +103,8 @@ public class MiniGuitarPlayController : MonoBehaviour
     
 >>>>>>> parent of e1ef9d3a (Merge pull request #5 from NagroAfic/c2_jsaldana)
 
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
