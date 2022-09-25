@@ -90,6 +90,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 611ff410493f2844ab15af3eb1400400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  amount: 10
+  restamount: 5
+  controller: {fileID: 0}
 --- !u!114 &5027502903206454429
 MonoBehaviour:
   m_ObjectHideFlags: 0
