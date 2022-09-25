@@ -90,6 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 611ff410493f2844ab15af3eb1400400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   amount: 10
   restamount: 5
   controller: {fileID: 0}
@@ -99,6 +100,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 9427a6b00fa46f043828ff10c9403e7c, type: 3}
   - {fileID: 21300000, guid: 21a1443a9a3acf4428fa2c4e6bbf9cc3, type: 3}
   - {fileID: 21300000, guid: 2b334f05ab1c6244dbf0a08adfee78e8, type: 3}
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 --- !u!114 &5027502903206454429
 MonoBehaviour:
   m_ObjectHideFlags: 0

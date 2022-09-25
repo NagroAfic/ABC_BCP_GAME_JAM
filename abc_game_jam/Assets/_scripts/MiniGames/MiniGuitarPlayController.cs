@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class MiniGuitarPlayController : MonoBehaviour
 {
@@ -9,10 +8,8 @@ public class MiniGuitarPlayController : MonoBehaviour
     public float valueX;
     public float valueY;
     public float timer = 60f;
-    public Image image;
-    public Text timer_text;
-    int timerInte;
-    [SerializeField] private Animator playerAnimator;
+    
+
 
     [Header("Juego Terminado")]
     public GameObject finalCanvas;
@@ -23,9 +20,7 @@ public class MiniGuitarPlayController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
         StartCoroutine(WaveController());
-        playerAnimator.SetBool("mini_guitarra", true);
     }
 
     // Update is called once per frame
@@ -34,8 +29,6 @@ public class MiniGuitarPlayController : MonoBehaviour
         if (timer > 0)
         {
             timer -= Time.deltaTime;
-            timerInte = (int)timer;
-            timer_text.text = timerInte.ToString();
         }
         else
         {
@@ -79,6 +72,7 @@ public class MiniGuitarPlayController : MonoBehaviour
         return newTransform;
     }
 
+<<<<<<< HEAD
     public void LlenarText(string d, int m, int s,int c)
     {
         descripcion.text=d;
@@ -92,4 +86,6 @@ public class MiniGuitarPlayController : MonoBehaviour
         SceneController.Instance.CambioEscena(n);
     }
 
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 }
