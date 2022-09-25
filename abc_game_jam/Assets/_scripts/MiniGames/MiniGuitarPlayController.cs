@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MiniGuitarPlayController : MonoBehaviour
 {
+
     public GameObject button;
     public float valueX;
     public float valueY;
@@ -15,12 +16,6 @@ public class MiniGuitarPlayController : MonoBehaviour
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 
 
-    [Header("Juego Terminado")]
-    public GameObject finalCanvas;
-    public Text descripcion;
-    public Text dinero;
-    public Text salud;
-    public Text comida;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +30,7 @@ public class MiniGuitarPlayController : MonoBehaviour
             timer -= Time.deltaTime;
 <<<<<<< HEAD
         }
+<<<<<<< HEAD
         else
         {
             finalCanvas.SetActive(true);
@@ -53,6 +49,8 @@ public class MiniGuitarPlayController : MonoBehaviour
 =======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
         }
+=======
+>>>>>>> parent of e1ef9d3a (Merge pull request #5 from NagroAfic/c2_jsaldana)
     }
 
     void CrearObjeto()
@@ -71,14 +69,15 @@ public class MiniGuitarPlayController : MonoBehaviour
             CrearObjeto();
             yield return new WaitForSeconds(1f);
         }
-    }
+    } 
 
     public Vector3 RandomPosition()
     {
-        Vector3 newTransform = new Vector3(0f, 0f, 0f);
+        Vector3  newTransform = new Vector3(0f,0f,0f);
         return newTransform;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public void LlenarText(string d, int m, int s,int c)
@@ -93,6 +92,9 @@ public class MiniGuitarPlayController : MonoBehaviour
     {
         SceneController.Instance.CambioEscena(n);
     }
+=======
+    
+>>>>>>> parent of e1ef9d3a (Merge pull request #5 from NagroAfic/c2_jsaldana)
 
 =======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)

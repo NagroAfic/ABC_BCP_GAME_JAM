@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class SoundGuitarTouch : MonoBehaviour
 {
@@ -10,13 +9,11 @@ public class SoundGuitarTouch : MonoBehaviour
     public float amount = 10f;
     public float restamount = 5f;
     [SerializeField] private MiniGuitarPlayController controller;
-    [SerializeField] private Image _image;
-    public List<Sprite> sprites;
     // Start is called before the first frame update
     void Start()
     {
-        int rangoSprite = Random.Range(1, sprites.Count);
         controller = GameObject.FindGameObjectWithTag("MiniGuitarPlayController").GetComponent<MiniGuitarPlayController>();
+<<<<<<< HEAD
         _image = this.gameObject.GetComponent<Image>();
         _image.sprite = sprites[rangoSprite];
         _image.SetNativeSize();
@@ -34,6 +31,9 @@ public class SoundGuitarTouch : MonoBehaviour
     void Start()
     {
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
+        
+>>>>>>> parent of e1ef9d3a (Merge pull request #5 from NagroAfic/c2_jsaldana)
         StartCoroutine(WaitDestroy());
     }
 

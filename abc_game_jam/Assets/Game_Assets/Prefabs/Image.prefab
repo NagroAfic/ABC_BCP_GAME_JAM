@@ -27,7 +27,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5027502903206454416}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
@@ -95,6 +95,7 @@ MonoBehaviour:
   amount: 10
   restamount: 5
   controller: {fileID: 0}
+<<<<<<< HEAD
   _image: {fileID: 0}
   sprites:
   - {fileID: 21300000, guid: f6811770997c94a40bf9824fdf941d71, type: 3}
@@ -105,6 +106,8 @@ MonoBehaviour:
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
+>>>>>>> parent of e1ef9d3a (Merge pull request #5 from NagroAfic/c2_jsaldana)
 --- !u!114 &5027502903206454429
 MonoBehaviour:
   m_ObjectHideFlags: 0
