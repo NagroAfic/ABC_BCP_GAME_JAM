@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class MiniGuitarPlayController : MonoBehaviour
 {
-
     public GameObject button;
     public float valueX;
     public float valueY;
@@ -15,6 +14,12 @@ public class MiniGuitarPlayController : MonoBehaviour
     int timerInte;
     [SerializeField] private Animator playerAnimator;
 
+    [Header("Juego Terminado")]
+    public GameObject finalCanvas;
+    public Text descripcion;
+    public Text dinero;
+    public Text salud;
+    public Text comida;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +36,22 @@ public class MiniGuitarPlayController : MonoBehaviour
             timer -= Time.deltaTime;
             timerInte = (int)timer;
             timer_text.text = timerInte.ToString();
+        }
+        else
+        {
+            finalCanvas.SetActive(true);
+            if (image.fillAmount > 0.75f)
+            {
+                LlenarText("Tocas Genial",50,30,30);
+            }
+            else if(image.fillAmount <= 0.75f && image.fillAmount > 0.35f)
+            {
+                LlenarText("Puedes hacerlo mejor", 25, 30, 30);
+            }
+            else
+            {
+                LlenarText("¡BUHH! ", 0, 30, 30);
+            }
         }
     }
 
@@ -50,14 +71,25 @@ public class MiniGuitarPlayController : MonoBehaviour
             CrearObjeto();
             yield return new WaitForSeconds(1f);
         }
-    } 
+    }
 
     public Vector3 RandomPosition()
     {
-        Vector3  newTransform = new Vector3(0f,0f,0f);
+        Vector3 newTransform = new Vector3(0f, 0f, 0f);
         return newTransform;
     }
 
-    
+    public void LlenarText(string d, int m, int s,int c)
+    {
+        descripcion.text=d;
+        dinero.text=m.ToString();
+        salud.text="-"+s.ToString();
+        comida.text="-"+c.ToString();
+    }
+
+    public void RestartGame(int n)
+    {
+        SceneController.Instance.CambioEscena(n);
+    }
 
 }

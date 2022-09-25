@@ -1,17 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SoundGuitarTouch : MonoBehaviour
 {
     public float amount = 10f;
     public float restamount = 5f;
     [SerializeField] private MiniGuitarPlayController controller;
+    [SerializeField] private Image _image;
+    public List<Sprite> sprites;
     // Start is called before the first frame update
     void Start()
     {
+        int rangoSprite = Random.Range(1, sprites.Count);
         controller = GameObject.FindGameObjectWithTag("MiniGuitarPlayController").GetComponent<MiniGuitarPlayController>();
-        
+        _image = this.gameObject.GetComponent<Image>();
+        _image.sprite = sprites[rangoSprite];
+        _image.SetNativeSize();
         StartCoroutine(WaitDestroy());
     }
 
