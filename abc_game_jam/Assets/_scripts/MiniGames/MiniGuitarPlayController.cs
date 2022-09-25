@@ -9,6 +9,10 @@ public class MiniGuitarPlayController : MonoBehaviour
     public float valueY;
     public float timer = 60f;
     
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 
 
     [Header("Juego Terminado")]
@@ -29,6 +33,7 @@ public class MiniGuitarPlayController : MonoBehaviour
         if (timer > 0)
         {
             timer -= Time.deltaTime;
+<<<<<<< HEAD
         }
         else
         {
@@ -45,6 +50,8 @@ public class MiniGuitarPlayController : MonoBehaviour
             {
                 LlenarText("¡BUHH! ", 0, 30, 30);
             }
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
         }
     }
 
@@ -73,6 +80,7 @@ public class MiniGuitarPlayController : MonoBehaviour
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void LlenarText(string d, int m, int s,int c)
     {
         descripcion.text=d;
@@ -86,6 +94,8 @@ public class MiniGuitarPlayController : MonoBehaviour
         SceneController.Instance.CambioEscena(n);
     }
 
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 }

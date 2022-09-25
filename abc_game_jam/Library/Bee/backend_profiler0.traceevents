@@ -1,5 +1,6 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1664117934487982, "dur":578, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664117934488567, "dur":313, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1664117934488914, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -1314,6 +1315,8 @@
 ,{ "pid":12345, "tid":16, "ts":1664117934499180, "dur":121891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664117934623465, "dur":2507, "ph":"X", "name": "ProfilerWriteOutput" }
 =======
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 ,{ "pid":12345, "tid":0, "ts":1664115776537577, "dur":55168, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664115776592765, "dur":1494, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1664115776594363, "dur":77, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -2438,5 +2441,8 @@
 ,{ "pid":12345, "tid":8, "ts":1664115779358846, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":8, "ts":1664115779358949, "dur":42759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664115779432551, "dur":7902, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 ,

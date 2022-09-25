@@ -100,6 +100,7 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.AdditionalFile.txt","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.dll (+2 others)","enqueueingNodeIndex":3}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.rsp","enqueuedNodeIndex":2,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.dll (+2 others)","enqueueingNodeIndex":3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_10838AE5161F155C.mvfrm","enqueuedNodeIndex":106,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_364D19D6304C1D65.mvfrm","enqueuedNodeIndex":107,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.NVIDIAModule.dll_BAA84F3BB85562D7.mvfrm","enqueuedNodeIndex":108,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
@@ -453,6 +454,8 @@
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":439}
 {"msg":"noderesult","processed_node_count":440,"number_of_nodes_ever_queued":442,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":439,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Assembly-CSharp.dll"}
 =======
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_5CFA57A511B5FADF.mvfrm","enqueuedNodeIndex":107,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_9D48BB2AFE356DD2.mvfrm","enqueuedNodeIndex":108,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.NVIDIAModule.dll_F32F9198E096353A.mvfrm","enqueuedNodeIndex":109,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
@@ -796,4 +799,7 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.AdditionalFile.txt","enqueuedNodeIndex":350,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.dll (+2 others)","enqueueingNodeIndex":352}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.rsp","enqueuedNodeIndex":351,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.dll (+2 others)","enqueueingNodeIndex":352}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb","enqueuedNodeIndex":443,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
+<<<<<<< HEAD
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)

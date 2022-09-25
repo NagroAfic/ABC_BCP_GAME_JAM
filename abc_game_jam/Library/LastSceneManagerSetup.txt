@@ -1,6 +1,10 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/SplashScreen.unity
+=======
+- path: Assets/Scenes/SampleScene.unity
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
 - path: Assets/Scenes/SampleScene.unity
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)

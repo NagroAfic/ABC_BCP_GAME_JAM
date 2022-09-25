@@ -10,6 +10,7 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 0, "tid": 1, "ts": 1664117934357892, "dur": 502959, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1664117934358994, "dur": 99415, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1664117934458517, "dur": 213724, "ph": "X", "name": "Run Backend", "args": {} },
@@ -1340,6 +1341,15 @@
 { "pid": 0, "tid": 1, "ts": 1664115779486909, "dur": 1325, "ph": "X", "name": "ChromeTraceHeader", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1664115779492415, "dur": 1186, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+=======
+{ "pid": 0, "tid": 1, "ts": 1664115775705389, "dur": 3776642, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664115775707001, "dur": 382694, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664115776092488, "dur": 3379533, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664115779472066, "dur": 9964, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664115779486909, "dur": 1325, "ph": "X", "name": "ChromeTraceHeader", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664115779492415, "dur": 1186, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 ,{ "pid":12345, "tid":0, "ts":1664115776537577, "dur":55168, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664115776592765, "dur":1494, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1664115776594363, "dur":77, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -2466,6 +2476,9 @@
 ,{ "pid":12345, "tid":0, "ts":1664115779432551, "dur":7902, "ph":"X", "name": "ProfilerWriteOutput" }
 ,{ "pid": 0, "tid": 1, "ts": 1664115779494347, "dur": 3186, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1664115779490120, "dur": 7453, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+<<<<<<< HEAD
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 {}
 

@@ -476,7 +476,11 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &507087911
+=======
+--- !u!1 &609780966
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
 --- !u!1 &609780966
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
@@ -488,17 +492,23 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 507087912}
   - component: {fileID: 507087914}
   - component: {fileID: 507087913}
   m_Layer: 5
   m_Name: salud
 =======
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
   - component: {fileID: 609780967}
   - component: {fileID: 609780969}
   - component: {fileID: 609780968}
   m_Layer: 5
   m_Name: Handle
+<<<<<<< HEAD
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +516,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &507087912
+=======
+--- !u!224 &609780967
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
 --- !u!224 &609780967
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
@@ -516,8 +530,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 507087911}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+  m_GameObject: {fileID: 609780966}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
   m_GameObject: {fileID: 609780966}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -526,6 +545,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Father: {fileID: 1620344418}
   m_RootOrder: 3
@@ -537,6 +557,8 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &507087913
 =======
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
   m_Father: {fileID: 1895618928}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -546,6 +568,9 @@ RectTransform:
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &609780968
+<<<<<<< HEAD
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -553,15 +578,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 507087911}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 =======
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
   m_GameObject: {fileID: 609780966}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
   m_Name: 
   m_EditorClassIdentifier: 
@@ -573,6 +604,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_FontData:
     m_Font: {fileID: 12800000, guid: f683b30ffcb4ffe45b1295d21d4669ec, type: 3}
@@ -590,6 +622,8 @@ MonoBehaviour:
   m_Text: -50
 --- !u!222 &507087914
 =======
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -601,6 +635,9 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &609780969
+<<<<<<< HEAD
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -608,7 +645,11 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 507087911}
+=======
+  m_GameObject: {fileID: 609780966}
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
   m_GameObject: {fileID: 609780966}
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
@@ -761,6 +802,7 @@ MonoBehaviour:
   button: {fileID: 5027502903206454416, guid: 143ca5184b9738f4f854764fb167bed1, type: 3}
   valueX: 180
 <<<<<<< HEAD
+<<<<<<< HEAD
   valueY: 100
   timer: 15
   image: {fileID: 1203126222}
@@ -771,6 +813,10 @@ MonoBehaviour:
   dinero: {fileID: 1701198385}
   salud: {fileID: 507087913}
   comida: {fileID: 1874965085}
+=======
+  valueY: 200
+  timer: 60
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
   valueY: 200
   timer: 60
@@ -813,6 +859,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711966155}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &730907745
 GameObject:
@@ -1128,6 +1175,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 --- !u!1 &776739718
@@ -1718,7 +1767,11 @@ Transform:
   m_PrefabInstance: {fileID: 452380817}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1620344417
+=======
+--- !u!1 &1895618927
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
 --- !u!1 &1895618927
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
@@ -1730,11 +1783,17 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1620344418}
   - component: {fileID: 1620344420}
   - component: {fileID: 1620344419}
   m_Layer: 5
   m_Name: panel_finishgame
+=======
+  - component: {fileID: 1895618928}
+  m_Layer: 5
+  m_Name: Sliding Area
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
   - component: {fileID: 1895618928}
   m_Layer: 5
@@ -1746,7 +1805,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1620344418
+=======
+--- !u!224 &1895618928
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
 --- !u!224 &1895618928
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
@@ -1756,7 +1819,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1620344417}
+=======
+  m_GameObject: {fileID: 1895618927}
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 =======
   m_GameObject: {fileID: 1895618927}
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
@@ -1765,6 +1832,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - {fileID: 840860850}
   - {fileID: 1345300358}
@@ -2083,6 +2151,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1874965083}
   m_CullTransparentMesh: 1
 =======
+=======
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
   - {fileID: 609780967}
   m_Father: {fileID: 318754529}
   m_RootOrder: 0
@@ -2092,6 +2162,9 @@ CanvasRenderer:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
+>>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
+=======
 >>>>>>> parent of a35d05f8 (Merge branch 'main' into c1_botones_marimon_branch)
 --- !u!1001 &1949810655
 PrefabInstance:
